@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="show">
+        <div class="whoTurn">??</div>
+        <div class="result">
+          <div data-won-o="0">
+            <img src="./football-svgrepo-com.svg" alt="football" />:
+            <span>00</span>
+          </div>
+          <div data-won-x="0">
+            <img src="./basketball-svgrepo-com.svg" alt="basketball" />:
+            <span>00</span>
+          </div>
+        </div>
+      </div>
+      <div class="board">
+        <div class="top">
+          <div id="0"></div>
+          <div id="1"></div>
+          <div id="2"></div>
+        </div>
+        <div class="center">
+          <div id="3"></div>
+          <div id="4"></div>
+          <div id="5"></div>
+        </div>
+        <div class="bottom">
+          <div id="6"></div>
+          <div id="7"></div>
+          <div id="8"></div>
+        </div>
+      </div>
+      <div class="control">
+        <button class="newGame">New Game</button>
+        <button class="playAgen">Play Again</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
